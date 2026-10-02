@@ -115,4 +115,8 @@ controls.
 Edit `AGENTS.md` for how the assistant should behave, add skills under `.agents/skills/`, and put
 your own reference material in `knowledge/`. Keep every new note linked from an `_index.md`.
 
+## License
+
+MIT - see [LICENSE](LICENSE). Use it, change it, build on it.
+
 Map of this workspace: [`_index.md`](_index.md).
