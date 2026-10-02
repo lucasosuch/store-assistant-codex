@@ -1,0 +1,17 @@
+# Project settings for the store assistant. Codex loads this file only after you trust the project.
+
+# --- Hub (optional) ----------------------------------------------------------
+# A Hub is an MCP server with your store data. Without it the assistant works from CSV exports.
+# To connect one: uncomment the block, set the address, and export the token before starting Codex:
+#   export HUB_TOKEN="your-token"
+# The server must be named `hub`. Never put the token itself in this file.
+#
+# [mcp_servers.hub]
+# url = "https://YOUR-HUB/mcp"
+# bearer_token_env_var = "HUB_TOKEN"
+# # Ask before every Hub tool call. Relax this for read tools once you are comfortable.
+# default_tools_approval_mode = "prompt"
+#
+# # The tool that writes to your store always asks, whatever the default above is.
+# [mcp_servers.hub.tools.apply_change]
+# approval_mode = "prompt"

@@ -1,0 +1,9 @@
+# raw store exports may hold customer data - never commit them
+data/inbox/*
+!data/inbox/.gitkeep
+
+# tokens
+.env
+
+__pycache__/
+.DS_Store

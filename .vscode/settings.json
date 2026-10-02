@@ -1,0 +1,19 @@
+{
+  "foam.files.ignore": [
+    "**/.*/**",
+    "**/node_modules/**",
+    "**/__pycache__/**",
+    "data/inbox/**"
+  ],
+  "foam.graph.style": {
+    "node": {
+      "hub": "#22c55e",
+      "profile": "#f59e0b",
+      "memory": "#a855f7",
+      "analysis": "#3b82f6",
+      "draft": "#ef4444",
+      "knowledge": "#14b8a6",
+      "data": "#a1a1aa"
+    }
+  }
+}
