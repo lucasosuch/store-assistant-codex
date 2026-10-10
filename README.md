@@ -11,7 +11,7 @@ Using Claude Code instead? The same workspace is available as [store-assistant-c
 ## What you get
 
 - **Skills** for the recurring jobs: sales review, stock check, margin check, product descriptions,
-  traffic review, importing an export, first-run setup.
+  traffic review, importing an export, first-run setup, and a setup check.
 - **Three roles**: sales analyst, catalog editor, traffic analyst.
 - **A knowledge graph.** Every analysis, decision and rule is a linked Markdown note. A check runs
   after each edit, so nothing the assistant writes ends up unlinked and forgotten.
@@ -46,6 +46,9 @@ After that, ask in plain words:
 - "What is about to run out?"
 - "What do I earn on product X after packaging and payment fees?"
 - "Write descriptions for the five products that have none."
+
+Something not working? Type: `check my setup`. The assistant checks Python, the graph, the Hub
+connection and the approval setting, and tells you what to fix.
 
 To call a skill by name, type `$` and pick it, or use `/skills`.
 

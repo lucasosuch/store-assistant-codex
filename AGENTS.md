@@ -107,4 +107,4 @@ Roles: `sales-analyst` (sales, margin), `catalog-editor` (products, stock, descr
 `traffic-analyst` (visits, search). Use one when a task sits clearly in its area.
 
 Skills: `store-setup`, `import-data`, `sales-review`, `stock-check`, `margin-check`,
-`product-content`, `traffic-review`.
+`product-content`, `traffic-review`, `doctor`.
