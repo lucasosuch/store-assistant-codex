@@ -25,9 +25,14 @@ Check, do not repair. Run every step even when an earlier one fails, then report
    source with an error or a sync older than a day is a problem: quote `last_error` and say that
    fixing it is the job of whoever runs the Hub. An authorization error on the call itself means
    the token is wrong or expired.
-6. **Profile.** If `store/profile.md` has `status: empty`, offer `store-setup`. List the money
+6. **What may be changed.** If the answer has `allowed_actions`, list the kinds of change the Hub
+   will carry out for this store; an empty list means none, and every `apply_change` will be
+   refused. If it has `can_apply: false`, this key can only propose: say that changes must be
+   applied from a connection that uses the owner's key. An older Hub does not report these two
+   fields; say they are unknown rather than guessing.
+7. **Profile.** If `store/profile.md` has `status: empty`, offer `store-setup`. List the money
    fields still marked unknown.
-7. **Exports.** Without Hub data for sales or catalog, check that `data/_index.md` registers at
+8. **Exports.** Without Hub data for sales or catalog, check that `data/_index.md` registers at
    least one export and that the file is still in `data/inbox/`.
 
 Report three short lists: works, does not work, how to fix each item. Never print a token. Do not
